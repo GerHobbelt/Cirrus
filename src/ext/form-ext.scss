@@ -181,10 +181,13 @@
         .form-ext-toggle__toggler i::after {
             background-color: var(--cirrus-gray);
             border-radius: 50%;
+            bottom: 0;
             height: 16px;
             left: 4px;
+            margin-top: auto;
+            margin-bottom: auto;
             width: 16px;
-            transform: translateY(-50%);
+            top: 0;
             transition: left var(--animation-duration) ease;
             text-align: left;
         }
